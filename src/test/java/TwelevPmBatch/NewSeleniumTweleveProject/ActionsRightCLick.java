@@ -13,8 +13,6 @@ import org.openqa.selenium.interactions.Actions;
 public class ActionsRightCLick {
 
 	public static void main(String[] args) throws AWTException, InterruptedException {
-		// TODO Auto-generated method stub
-
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
